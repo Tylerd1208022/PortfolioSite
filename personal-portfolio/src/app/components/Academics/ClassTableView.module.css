@@ -1,0 +1,30 @@
+.Tab {
+    display: flex;
+    background-color: #9842f5;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 1.5px;
+    padding: 3px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+.Tab h1 {
+    color: white;
+    font-weight: bold;
+    padding-left: 8px;
+}
+.Tab button{
+    color: white;
+    align-self:flex-end;
+    scale: 0.8;
+    padding: 2px;
+}
+.openTable{
+    height:100;
+    transition: height 0.5s ease-in-out; 
+}
+.closedTable{
+    height:0;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out; 
+}

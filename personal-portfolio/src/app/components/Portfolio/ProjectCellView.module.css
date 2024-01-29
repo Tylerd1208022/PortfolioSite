@@ -1,0 +1,23 @@
+.RowContainer{
+    display: flex;
+}
+.ImageContainer{
+    flex: 1;
+    max-width: 250px;
+    padding: 6px;
+}
+.TextContainer{
+    flex: 1;
+    color: #000000;
+}
+.ImageContainer img {
+    border-radius: 10px;
+}
+.TextContainer a {
+    color: #0000FF;
+}
+.noLink{
+    font-style: italic;
+    font-size: 10px;
+    font-weight: lighter;
+}

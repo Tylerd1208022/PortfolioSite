@@ -1,0 +1,19 @@
+.hiddenModule{
+    height : 0;
+    overflow: hidden;
+}
+.shownModule{
+    height: 100%;
+}
+.ModuleDropdown{
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1.5px;
+    color: white
+}
+.ModuleDropdown button {
+    padding-left: 10px;
+}

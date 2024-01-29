@@ -1,0 +1,13 @@
+.ClassCell h2{
+    font-weight: bold;
+}
+.ClassCell h3 {
+    font-style: italic;
+}
+.spacer{
+    height:3px;
+    background-color:black;
+    border-radius: 10px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
