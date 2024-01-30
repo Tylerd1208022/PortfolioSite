@@ -15,7 +15,7 @@ const BuildAComputer = () => {
             <div className={styles.ModuleList}>
                 {Object.keys(BuilderData).map((moduleName)=>{
                     return (
-                        <ModuleDropdown key={moduleName} moduleName={moduleName}/>
+                        <ModuleDropdown moduleName={moduleName}/>
                     );
                 })}
             </div>

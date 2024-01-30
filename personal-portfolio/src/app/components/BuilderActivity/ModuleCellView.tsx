@@ -55,7 +55,7 @@ const ModuleCell: React.FC<ModuleCellProps> = ({pageData}) => {
                         <div className= {styles.buttonsRow}>
                         {Object.keys(thisPage.answers).map((answerKey)=>{
                                 return (
-                                    <button key={answerKey}
+                                    <button
                                     className={
                                         (currSelection==answerKey) ? (
                                             currSelection==thisPage.correctAnswer ? styles.correctSelection : styles.incorrectSelection
@@ -74,7 +74,7 @@ const ModuleCell: React.FC<ModuleCellProps> = ({pageData}) => {
                                 const nextNum: string = getNextPageVal(currPage);
                                 setCurrSelection('0');
                                 setCurrPage(nextNum);
-                            }}> 
+                            }}>
                                 Next Question
                             </button>
                         </div>

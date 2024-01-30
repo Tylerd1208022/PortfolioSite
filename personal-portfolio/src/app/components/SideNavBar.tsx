@@ -80,7 +80,7 @@ const SideNavBar: React.FC<SideNavBarProps> = ({setPageState , pageState}) => {
                 </button>
             </div>
             <div className={styles.sideChevronFormat}>
-                <button className={styles.chevronButton}
+                <button className={styles.chevronButtonStuck}
                 onClick={() => setShowNavbar(false)}>
                     &#x25C0;
                 </button>

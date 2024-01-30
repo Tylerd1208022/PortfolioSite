@@ -17,7 +17,7 @@ const ProjectCellView: React.FC<ProjectCellViewProps> = ({Title,Description,Imag
         if (Link == "") {
             return (
                 <div className={styles.noLink}>
-                    This Project isn&#39;t Publicly availible at this time
+                    This Project isn't Publicly availible at this time
                 </div>
             );
         } if (Link != "self") {
