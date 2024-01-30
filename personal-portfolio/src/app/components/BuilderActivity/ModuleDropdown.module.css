@@ -5,6 +5,10 @@
 .shownModule{
     height: 100%;
 }
+.barContainer{
+    display: flex;
+    justify-content: space-between;
+}
 .ModuleDropdown{
     background-color: gray;
     padding: 5px;
@@ -14,6 +18,34 @@
     border-width: 1.5px;
     color: white
 }
+.ModuleFinished{
+    background-color: green;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1.5px;
+    color: white
+}
 .ModuleDropdown button {
+    display: flex;
     padding-left: 10px;
 }
+.chevronUp {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #FFF; 
+    margin-top: 4px;
+  }
+.chevronDown {
+    margin-top: 4px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #FFF;
+  }
+  
+  

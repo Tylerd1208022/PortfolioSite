@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from './ModuleCellView.module.css';
 import Page from './PageInterface.tsx';
-import Module from "module";
 import { useScoreState } from "@/app/context.tsx";
 interface ModuleCellProps{
     pageData: Record<string,Page>;
@@ -11,14 +10,17 @@ const ModuleCell: React.FC<ModuleCellProps> = ({pageData}) => {
 
     const [currPage,setCurrPage] = useState<string>('Intro');
     const [currSelection,setCurrSelection] = useState<string>('0');
-    const { score, setScore} = useScoreState();
+    const { score, quizzes ,setScore, setQuizzes} = useScoreState();
 
     const getNextPageVal = (currentValue:string) => {
         const intVal: number = parseInt(currentValue);
         const maxVal: number = parseInt(pageData['Intro'].correctAnswer);
         if (intVal == maxVal){
-            if (score < 11){
+            if (!quizzes[parseInt(pageData['Intro'].correctPrompt)]){
                 setScore(score + 1);
+                var currVal: Array<boolean> = quizzes;
+                currVal[(parseInt(pageData['Intro'].correctPrompt))] = true;
+                setQuizzes(currVal);
             }
             return 'End';
         } else {

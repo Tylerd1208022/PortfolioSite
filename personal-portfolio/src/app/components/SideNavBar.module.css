@@ -1,12 +1,9 @@
-.navBarContainer{
-    height: 100vh;
-}
 .navBar{
     background-color: #239CBC;
     min-height: 100%;
     width: 250px;
     border-right: 2px solid #000000;
- 
+    min-height: 100vh;
 }
 .navOptions{
     display: flex;
@@ -76,3 +73,17 @@
     font-size: 12px;
     text-align: left;
 }
+.chevronRight {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #FFF; 
+  }
+.chevronLeft {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 12px solid #FFF;
+  }

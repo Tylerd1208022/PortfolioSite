@@ -4,7 +4,7 @@ import styles from './ProfessionalExperience.module.css'
 const ProfessionalExperience = () => {
     return (
         <div className={styles.ProfessionalExperience}>
-            <h1> Professional Experience </h1>
+            <h1> Work Experience </h1>
             <h2> Industry Experience </h2>
             <p>
                 While I have been in college, I have dedicated a large amount of time to my business, Electric Personal Training. This business involves both in person personal training, and app development for EPT Pocket Trainer, my publicly availible iOS app. Throughout

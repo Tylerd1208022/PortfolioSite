@@ -8,7 +8,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "The first step in the process is to choose the right material for the job. Designing the components that allow for computer engineering requires the work of material scientists, electrical engineers, and physicists",
             "answers" : {},
             "correctAnswer" : "12",
-            "correctPrompt" : ""
+            "correctPrompt" : "1"
         },
         "1" : {
             "prompt" : "Electricity is the basis for all computation. We'll need a good handle on how the electromagnetic force works for this! Which particle does not carry an electric charge?",
@@ -153,7 +153,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "Now that we've discovered transistors, we can combine them to process information. Lets learn some basic combinational logic!",
             "answers" : {},
             "correctAnswer" : "17",
-            "correctPrompt" : ""
+            "correctPrompt" : "2"
         },
         "1" : {
             "prompt" : "Our colloquial number system uses a 'decimal' system because it is base 10, or we count 10 digits before adding a new place. Binary uses a base of:",
@@ -349,7 +349,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "To do useful things, our computer needs to perform operations on past data, and store results for later. This module explores the systems for implementing this storage",
             "answers" : {},
             "correctAnswer" : "10",
-            "correctPrompt" : ""
+            "correctPrompt" : "3"
         },
         "1" : {
             "prompt" : "The D Flip Flop is the first sequential device to discuss. This object stores data that can be updated:",
@@ -467,7 +467,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "Lets examine a few simple steps we can take to improve upon our basic logic/storage combo to really amp up our speed",
             "answers" : {},
             "correctAnswer" : "7",
-            "correctPrompt" : ""
+            "correctPrompt" : "4"
         },
         "1" : {
             "prompt" : "Consider two loads of laundry. Which is most efficient?",
@@ -549,7 +549,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "We have a really fast CPU, but how do we use it? This module covers the development of programming languages",
             "answers" : {},
             "correctAnswer" : "10",
-            "correctPrompt" : ""
+            "correctPrompt" : "5"
         },
         "1" : {
             "prompt" : "The most basic programming language is written purely in:",
@@ -672,7 +672,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "There is much more to computers than just processing - lets make a computer system!",
             "answers" : {},
             "correctAnswer" : "6",
-            "correctPrompt" : ""
+            "correctPrompt" : "6"
         },
         "1" : {
             "prompt" : "So far, we've been making a CPU, a:",
@@ -748,12 +748,12 @@ const BuilderData: BuilderData_t = {
             "correctPrompt" : ""
         },
     },
-    "6: Build a Program" : {
+    "7: Build a Program" : {
         "Intro" : {
             "prompt" : "Beyond the underlying machine code, we need more advanced strategies to make efficient applications that perform complex functions",
             "answers" : {},
             "correctAnswer" : "11",
-            "correctPrompt" : ""
+            "correctPrompt" : "7"
         },
         "1" : {
             "prompt" : "A variable is a:",
@@ -883,12 +883,12 @@ const BuilderData: BuilderData_t = {
             "correctPrompt" : ""
         },
     },
-    "7: Build an App, part 1" : {
+    "8: Build an App, part 1" : {
         "Intro" : {
             "prompt" : "We have a computer, we have a system, and we know how to use it. Its time to make something useful! First, we'll make a front end.",
             "answers" : {},
             "correctAnswer" : "7",
-            "correctPrompt" : ""
+            "correctPrompt" : "8"
         },
         "1" : {
             "prompt" : "The front end of an application includes the:",
@@ -980,7 +980,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "The internet is used by all and understood by few. Lets take a look at how it works!",
             "answers" : {},
             "correctAnswer" : "7",
-            "correctPrompt" : ""
+            "correctPrompt" : "9"
         },
         "1" : {
             "prompt" : "Internet communication is primarily via",
@@ -1071,7 +1071,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "We have screens, but now its time to take our app to the next level - the internet",
             "answers" : {},
             "correctAnswer" : "7",
-            "correctPrompt" : ""
+            "correctPrompt" : "10"
         },
         "1" : {
             "prompt" : "For storing large sets of data that involve connections between one another, we'll use",
@@ -1162,7 +1162,7 @@ const BuilderData: BuilderData_t = {
             "prompt" : "AI is brought about by machine learning. Lets use some fancy math and intuitive thinking to make our simple machine learn",
             "answers" : {},
             "correctAnswer" : "12",
-            "correctPrompt" : ""
+            "correctPrompt" : "11"
         },
         "1" : {
             "prompt" : "2 + 2 = ?",

@@ -21,7 +21,7 @@ const SideNavBar: React.FC<SideNavBarProps> = ({setPageState , pageState}) => {
             <div className = "showButton">
                 <button className= {styles.chevronButton}
                 onClick={() => setShowNavbar(true)}>
-                    &#x25B6;
+                    <div className={styles.chevronRight}/>
                 </button>
             </div>
         );
@@ -69,7 +69,7 @@ const SideNavBar: React.FC<SideNavBarProps> = ({setPageState , pageState}) => {
             <div className={styles.sideButtonFormat}>
                 <button className={pageState==='Professional' ? styles.selectedButton : styles.unselectedButton}
                 onClick={() => updatePageState('Professional')}>
-                    Professional Experience
+                    Work Experience
                 </button>
             </div>
             <div className={styles.sideButtonFormat}>
@@ -82,7 +82,7 @@ const SideNavBar: React.FC<SideNavBarProps> = ({setPageState , pageState}) => {
             <div className={styles.sideChevronFormat}>
                 <button className={styles.chevronButtonStuck}
                 onClick={() => setShowNavbar(false)}>
-                    &#x25C0;
+                    <div className={styles.chevronLeft}/>
                 </button>
             </div>
         </div>//End Navbar

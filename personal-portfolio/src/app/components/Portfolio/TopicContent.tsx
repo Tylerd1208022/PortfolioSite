@@ -96,7 +96,7 @@ const TopicData: TopicData_t = {
     "HWE" : {
         "title" : "Hardware Engineering",
         "description" : "Regardless of the language, library, or programming paradigm, somehow a machine has to process data and instructions efficiently in order to get an outcome, and do something useful with that outcome. Hardware engineering is the design of electrical circuits, some of which are able to process complex data as well as being programmed. By working with the silicon directly, we can achieve performance gains that are impossible to achieve with software optimization alone.",
-        "skills" : "Verilog/SystemVerilog, VHDL, UVM, ModelSim/QuestaSim, Quartus II, Cadence EDA Suite (Virtuoso, Genus, Xcelium), Synplify, EaglePCB,",
+        "skills" : "Verilog/SystemVerilog, VHDL, UVM, ModelSim/QuestaSim, Quartus II, Cadence EDA Suite (Virtuoso, Genus, Xcelium), Synplify, EaglePCB, Catapult HLS, Soldering, Oscilloscopes",
         "projects" : {
             "project1" : {
                 "projectTitle" : "5 Stage Pipelined DLX Processor with 2 Level Cache Hierarchy",

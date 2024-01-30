@@ -12,7 +12,7 @@ const ClassTableView: React.FC<AcademicExperienceProps> = ({title}) => {
 
     const [tableIsOpen,changeTableIsOpen] = useState<boolean>(true);
 
-    const buttonLabel = tableIsOpen ? <div>&#9650;</div>:<div>&#9660;</div> ;
+    const buttonLabel = tableIsOpen ? <div className={styles.chevronUp} />:<div className={styles.chevronDown}/> ;
 
     return (
         <div>
@@ -21,6 +21,7 @@ const ClassTableView: React.FC<AcademicExperienceProps> = ({title}) => {
                     <h1>
                         {title}
                     </h1>
+                    <div className="flex-grow:1"/>
                     <button className={styles.button}
                     onClick={()=>changeTableIsOpen(!tableIsOpen)}>
                         {buttonLabel}
