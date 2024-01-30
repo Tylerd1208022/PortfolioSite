@@ -30,7 +30,7 @@ const ClassTableView: React.FC<AcademicExperienceProps> = ({title}) => {
                     {Object.keys(classData[title]).map((classID)=>{
                         const thisClass = classData[title][classID];
                         return (
-                            <ClassCellView courseName={thisClass.courseName}
+                            <ClassCellView key={classID} courseName={thisClass.courseName}
                             courseNum={thisClass.courseId}
                             description={thisClass.description}/>
                         );

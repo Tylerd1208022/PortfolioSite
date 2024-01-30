@@ -15,7 +15,7 @@ const AcademicExperience = () => {
         <h1>
           I came to NU at 2020 as a Computer Engineering student simultaneously enrolled in the rigorous Integrated Science Program. This program gave me a solid foundation in physics, mathematics, and overall scientific reasoning.
           After examining the cirriculum for further years however, I realized it was more focused towards a research pathway, and not the engineering pathway I aspired to follow. Once I realized this, I dropped out of the program, and once
-          I was elligible, applied and was admitted to the Bachelor's/Master's program. This program allows me to use undergraduate tuition and financial aid towards graduate credit, and I already had so much credit from a combination of coursework,
+          I was elligible, applied and was admitted to the Bachelor&#39;s/Master&#39;s program. This program allows me to use undergraduate tuition and financial aid towards graduate credit, and I already had so much credit from a combination of coursework,
           transfer credit from early enrollment courses, and AP credit that I will be able to finish the entirety of my MS inside of four years, simultaneously completing my MS and BS in Computer Engineering.
         </h1>
         <h2>
@@ -25,7 +25,7 @@ const AcademicExperience = () => {
         {Object.keys(classData).map((genreId)=>{
                     const classes = classData[genreId];
                     return (
-                        <ClassTableView title={genreId}/>
+                        <ClassTableView key={genreId} title={genreId}/>
                     );
           })}
       </div>  
