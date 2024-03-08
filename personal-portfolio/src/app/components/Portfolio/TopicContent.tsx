@@ -19,7 +19,7 @@ const TopicData: TopicData_t = {
     "HLP": {
         "title" : "High Level Programming",
         "description" : "The term 'High Level' programming refers to the use of languages, libraries, and frameworks that handle a large amount of complexity independently, allowing for shorter development times for complex projects. This, of course, does not come for free, as these resources often aren't able to truly optimize a solution, resulting in decreased performance. High level programming is best for developing complex applications, especially when development time is more important than optimizing performance",
-        "skills" : "Python, PyTorch, AWS (RDS,S3,Lambda,API Gateway,EC2,Braket), JavaScript, Node.js/Express.js, React.js/Next.js, Swift/SwiftUI, Firebase (RTDB, Functions)",
+        "skills" : "Python, PyTorch, AWS (RDS,S3,Lambda,API Gateway,EC2,Braket), JavaScript, Node.js/Express.js, React.js/Next.js, Swift/SwiftUI, Firebase (RTDB, Functions), SpringBoot, WebSockets, GraphQL",
         "projects" : {
             "EPT Pocket Trainer":{
                 "projectTitle" : "EPT Pocket Trainer",
@@ -50,11 +50,18 @@ const TopicData: TopicData_t = {
                 "imageSide" : "Right"
             },
             "project5" : {
+                "projectTitle" : "BillSplit",
+                "projectDescription" : "Using Spring Boot, GraphQL, WebSockets, and Next.js, my team and I developed a web application that makes splitting the bill between friends easy. It leverages NExt.js/React.js by using modular, reusable code, GraphQL to communicate with the backend, GraphQL subscriptions/WebSockets to serve real time data to the UI and allow synchronization between users, and Spring Boot to host the backend and respond to requests by clients.",
+                "projectImageFile" : "Billsplit.png",
+                "projectLink" : "https://github.com/CS-396-Full-Stack-Software-Eng/final-project-eraj-hayden-tyler",
+                "imageSide" : "Left"
+            },
+            "project6" : {
                 "projectTitle" : "This Website!",
                 "projectDescription" : "This website was created using React/Next.js front end frameworks",
                 "projectImageFile" : "react.png",
                 "projectLink": "self",
-                "imageSide" : "Left"
+                "imageSide" : "Right"
             }
         }
     },
@@ -113,18 +120,25 @@ const TopicData: TopicData_t = {
                 "imageSide" : "Right"
             },
             "project3" : {
+                "projectTitle" : "FPGA FM Radio",
+                "projectDescription" : "Using SystemVerilog, I created an FM Radio. I used the two process architecture to ensure efficient synthesis of my design, UVM and QuestaSim to verify its correctness, and Synplify Premier to evaluate the resource usage and verify it was synthesizable.",
+                "projectImageFile" : "TopArch.png",
+                "projectLink": "https://github.com/Tylerd1208022/387Final",
+                "imageSide" : "Left"
+            },
+            "project4" : {
                 "projectTitle" : "FPGA Tank Game",
                 "projectDescription" : "Using Quartus II on an Altera Cyclone FPGA DevBoard, my partner and I created a 2 player arcade game involving two paddles(tanks) on either side of the screen that could be accelerated or deccelerated, in which players would fire missiles across the screen trying to hit the opposing tank. This was created using the two process FSM architecture in VHDL to manage game states. Inputs were taken from serial keyboards, and the game was displayed on a VGA screen, with additional display such as score and winner (once game was over) being displayed across several 7 segment LED displays and an LCD text display.",
                 "projectImageFile" : "TankGame.png",
                 "projectLink" : "https://docs.google.com/document/d/1-Zubl4kV4NRs2fvfVXhXStXts5ZsR8iNrxim4LOe23k/edit?usp=sharing",
-                "imageSide" : "Left"
+                "imageSide" : "Right"
             },
-            "project4" : {
+            "project5" : {
                 "projectTitle" : "Hybrid Consistency - Physical modelling",
                 "projectDescription" : "As part of my work with PARAG@N Lab group, my team developed a system for classifying 4 cache line 'chunks' by how many processors share access across a program. Those that are only accessed by a single thread can afford to completely ignore TSO consistency, which increases performance. In order to do this, the TLB must be altered, and new Load/Store Queues must be created for the memory operations bypassing TSO. Using Cadence EDA tools and the Cacti simulator, I evaluated the costs in terms of area, power, and latency of expanding these existing structures to make sure they are small enough to justify the performance improvements they yield. This work has been submitted to ISCA'24 for publication.",
                 "projectImageFile" : "Paragon.png",
                 "projectLink" : "",
-                "imageSide" : "Right"
+                "imageSide" : "Left"
             }
         }
     }
